@@ -31,19 +31,25 @@ class LibraryViewController: UIViewController {
     var filteredMediaItems: [MediaItem] = []
 
     // MARK: - Lifecycle
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        filteredMediaItems = allMediaItems
-        setupDelegates()
-    }
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//        filteredMediaItems = allMediaItems
+//        setupDelegates()
+//    }
+
 
     private func setupDelegates() {
         searchBar.delegate = self
+
 //        categoryCollectionView.delegate = self
 //        categoryCollectionView.dataSource = self
 //        mediaCollectionView.delegate = self
 //        mediaCollectionView.dataSource = self
+
     }
+
+//    }
+
 }
 
 // MARK: - UICollectionView DataSource & Delegate
