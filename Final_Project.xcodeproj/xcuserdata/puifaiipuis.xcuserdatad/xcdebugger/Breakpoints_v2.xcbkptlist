@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "30E8C503-40D5-43D6-9D85-53437F8259EC"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "65BFB378-17F5-48DB-9302-A63315C9CE1A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Final_Project/LibraryViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "7"
+            endingLineNumber = "7"
+            landmarkName = "LibraryViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "65BFB378-17F5-48DB-9302-A63315C9CE1A - dbbbf6c43049a58a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Final_Project.LibraryViewController.categoryCollectionView.getter : Swift.Optional&lt;__C.UICollectionView&gt;"
+                  moduleName = "Final_Project.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/puifaiipuis/Documents/Final_Project/Final_Project/LibraryViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "7"
+                  endingLineNumber = "7">
+               </Location>
+               <Location
+                  uuid = "65BFB378-17F5-48DB-9302-A63315C9CE1A - 3880354019fb99be"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Final_Project.LibraryViewController.categoryCollectionView.setter : Swift.Optional&lt;__C.UICollectionView&gt;"
+                  moduleName = "Final_Project.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/puifaiipuis/Documents/Final_Project/Final_Project/LibraryViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "7"
+                  endingLineNumber = "7">
+               </Location>
+               <Location
+                  uuid = "65BFB378-17F5-48DB-9302-A63315C9CE1A - 86a626414577328d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Final_Project.LibraryViewController.categoryCollectionView.modify : Swift.Optional&lt;__C.UICollectionView&gt;"
+                  moduleName = "Final_Project.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/puifaiipuis/Documents/Final_Project/Final_Project/LibraryViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "7"
+                  endingLineNumber = "7">
+               </Location>
+               <Location
+                  uuid = "65BFB378-17F5-48DB-9302-A63315C9CE1A - 9ac204ee79cd98cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Final_Project.LibraryViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Final_Project.LibraryViewController"
+                  moduleName = "Final_Project.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/puifaiipuis/Documents/Final_Project/Final_Project/LibraryViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "7"
+                  endingLineNumber = "7">
+               </Location>
+               <Location
+                  uuid = "65BFB378-17F5-48DB-9302-A63315C9CE1A - 4afabe154f200285"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Final_Project.LibraryViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Final_Project.LibraryViewController&gt;"
+                  moduleName = "Final_Project.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/puifaiipuis/Documents/Final_Project/Final_Project/LibraryViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "7"
+                  endingLineNumber = "7">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
