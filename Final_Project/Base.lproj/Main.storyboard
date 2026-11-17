@@ -4,10 +4,12 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="25407"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="UIMenu" message="Requires Xcode 11 or later." minToolsVersion="11.0" requiredIntegratedClassName="UICommandDiff"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--คลังของฉัน-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Final_Project" customModuleProvider="target" sceneMemberID="viewController">
@@ -31,7 +33,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" red="0.94045714910027978" green="1" blue="0.91104803645874899" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.9765625" green="0.984375" blue="0.9252929688" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Icon_wf" translatesAutoresizingMaskIntoConstraints="NO" id="fe5-PB-Gac">
                                 <rect key="frame" x="16" y="132" width="16" height="16"/>
@@ -42,6 +44,13 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="20"/>
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="เรียงตาม: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s9e-Ge-QgH">
+                                <rect key="frame" x="20" y="264" width="76" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS" family="Euphemia UCAS" pointSize="18"/>
+                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="hIc-Rw-o9k">
@@ -62,25 +71,35 @@
                                 <rect key="frame" x="0.0" y="198" width="393" height="58"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="KP7-0f-7hE">
-                                        <rect key="frame" x="65" y="8" width="450.66666666666674" height="42"/>
+                                        <rect key="frame" x="16" y="8" width="563.33333333333337" height="42"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8c9-Qe-wqb">
                                                 <rect key="frame" x="0.0" y="1" width="112.66666666666667" height="40.333333333333336"/>
+                                                <color key="tintColor" red="0.068384976159999999" green="0.37855832039999998" blue="0.0011908806269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="tinted" title="ทั้งหมด (00)"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wnM-jC-PxX">
-                                                <rect key="frame" x="126.66666666666669" y="1" width="90" height="40.333333333333336"/>
+                                                <rect key="frame" x="123.66666666666669" y="1" width="90" height="40.333333333333336"/>
+                                                <color key="tintColor" red="0.068384976159999999" green="0.37855832039999998" blue="0.0011908806269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="tinted" title="ซีรีส์ (00)"/>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v9a-OA-RDe">
-                                                <rect key="frame" x="231" y="1" width="105" height="40.333333333333336"/>
+                                                <rect key="frame" x="225" y="1" width="105" height="40.333333333333336"/>
+                                                <color key="tintColor" red="0.068384976159999999" green="0.37855832039999998" blue="0.0011908806269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="tinted" title="อนิเมะ (00)"/>
                                             </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S4b-oV-SUv">
+                                                <rect key="frame" x="341" y="1" width="110.66666666666669" height="40.333333333333336"/>
+                                                <color key="tintColor" red="0.068384976159999999" green="0.37855832039999998" blue="0.0011908806269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="tinted" title="หนังสือ (00)"/>
+                                            </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="tailTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yO4-rr-iaA">
-                                                <rect key="frame" x="350" y="1" width="100.66666666666669" height="40.333333333333336"/>
+                                                <rect key="frame" x="462.66666666666669" y="1" width="100.66666666666669" height="40.333333333333336"/>
+                                                <color key="tintColor" red="0.068384976159999999" green="0.37855832039999998" blue="0.0011908806269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="tinted" title="นิยาย (00)"/>
                                             </button>
@@ -101,18 +120,95 @@
                                 <viewLayoutGuide key="contentLayoutGuide" id="gHV-XB-Eme"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="whk-mC-J2M"/>
                             </scrollView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" showsMenuAsPrimaryAction="YES" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" changesSelectionAsPrimaryAction="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F4L-dy-4Oh">
+                                <rect key="frame" x="96" y="261" width="139" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="18"/>
+                                <menu key="menu" id="8Lf-nS-76e">
+                                    <children>
+                                        <command title="บันทึกล่าสุด" menuElementState="on" id="aps-cW-cHe"/>
+                                        <command title="บันทึกเก่าสุด" id="P1D-Xw-tax"/>
+                                    </children>
+                                </menu>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.068384976159999999" green="0.37855832039999998" blue="0.0011908806269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pDP-fj-GVw">
+                                <rect key="frame" x="0.0" y="777" width="393" height="75"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.9765625" green="0.984375" blue="0.9252929688" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="1" green="0.99197024863652183" blue="0.96008347248303327" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="คลังของฉัน" selectedImage="book.closed.fill" catalog="system" id="2R9-ZD-3aM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="135.1145038167939" y="103.52112676056339"/>
         </scene>
+        <!--โปรไฟล์-->
+        <scene sceneID="vr4-Z5-if8">
+            <objects>
+                <viewController id="R7y-RZ-8zI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="shV-pt-2Ol">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Jfx-BM-w0i"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="โปรไฟล์" selectedImage="person.circle.fill" catalog="system" id="AmQ-Yo-mBC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="T54-DN-RX6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1812" y="415"/>
+        </scene>
+        <!--บันทึกใหม่-->
+        <scene sceneID="g4I-wp-F0S">
+            <objects>
+                <viewController id="vai-4T-Gr9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9p0-0I-idb">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="fll-D4-5o2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="บันทึกใหม่" selectedImage="plus.circle.fill" catalog="system" id="Ag7-BY-FL6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ucy-jK-jyu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1812" y="-193"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="YvJ-ZN-PNa">
+            <objects>
+                <tabBarController id="PjC-6H-FlX" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ggf-Ck-fNm">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="vai-4T-Gr9" kind="relationship" relationship="viewControllers" id="Btt-3d-gK6"/>
+                        <segue destination="R7y-RZ-8zI" kind="relationship" relationship="viewControllers" id="fFY-Cr-je2"/>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="9rm-4B-eBY"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fxC-Rl-Uku" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="906" y="112"/>
+        </scene>
     </scenes>
     <resources>
         <image name="Icon_wf" width="2000" height="2000"/>
         <image name="Profile_wf" width="2000" height="2000"/>
+        <image name="book.closed.fill" catalog="system" width="111" height="128"/>
+        <image name="person.circle.fill" catalog="system" width="128" height="128"/>
+        <image name="plus.circle.fill" catalog="system" width="128" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>
